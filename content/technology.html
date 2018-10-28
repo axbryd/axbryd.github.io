@@ -23,7 +23,7 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="#" id="logo">A collection of building blocks</a></h1>
+								<h1><a href="#" id="logo">Building the Future Server Networking Technology</a></h1>
 							</header>
 						</div>
 
@@ -62,17 +62,22 @@
 				</div>
 
 			<!-- Main -->
-				<div class="wrapper style1">
+				<div class="wrapper style2">
 
-					<div class="container">
+					<section id="intro" class="container special">
+						<header>
+							<!-- <h2>Building the Future Server Networking Technology</h2> -->
+							<p>
+								Keeping Up with the Promise of a Fully Software Network Data
+								Plane, Combining simpler programmability with better performance
+							</p>
+						</header>
+
 						<article id="main" class="special">
+							<!-- <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a> -->
 							<header>
-								<h2><a href="#">Building the Future Server Networking Technology</a></h2>
-								<p>
-									Keeping Up with the Promise of a Fully Software Network Data Plane
-								</p>
+									<h3>The challanges: performance and ease of use</h3>
 							</header>
-							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
 							<p>
 								While the networking industry decisely moves towards fully software network functions,
                 the end of Moore's law and Dennard's scaling is posing dounting challenges on virtual network function designers.
@@ -81,55 +86,62 @@
                 computation from the servers' general purpose CPU. These Smart NICs give the needed horse power to handle future networking workloads,
                 but at the cost of making network functions development even harder, requiring new skills such as FPGA and Network Processors programming.
                 Performing cutting-edge research, Axbryd provides a technology that guarantees very high-performance, while keeping a lean and
-                easy programming model. What does it take to design a connection tracking firewall that runs at 40Gbps? With Axbryd, it takes one day!
+                easy programming model.
+								<!-- What does it take to design a connection tracking firewall that runs at 40Gbps? With Axbryd, it takes one day! -->
 							</p>
-							<section>
-								<header>
+							<!-- <section> -->
+							<a href="#" class="image featured"><img src="../images/header-exagons.png" alt=""></a>
+							<header>
 									<h3>It's all about abstractions!</h3>
-								</header>
-								<p>
-									Building the logic of a network function is already complex without getting lost in the low level implementation details that have to do
-                  with packet processing, memory allocation and handling, data structures, etc. Abstracting away such details was the first target of
-                  Axbryd's researchers. Surprisingly, the core of Axbryd's technology relies on an already well-known and widely used concept in
-                  network functions design: <strong>Finite State Machines</strong> (FSMs, for friends).
-								</p>
-								<p>
-									FSMs are already widely used to design network functions at all levels, from IP packets handling to congestion control protocols, and as
-                  such they are a familiar and easy-to-use abstraction for network functions designers and developers. Axbryd makes FSMs the central
-                  abstraction for many of its technological building blocks, enabling a unique common programming model for network functions running in software,
-                  FPGAs, network processors or even ASICs. The result? Network functions are developed in few hours, programming them is as easy as writing
-                  <i>python</i> scripts and, with no changes, they can run on both a CPU at 10s of Gbps or on a Smart NIC at 100s of Gbps.
-								</p>
-							</section>
-							<section>
-								<header>
-									<h3>Where do we start from?</h3>
-								</header>
-								<p>
-									Axbryd's quest towards better networking technologies is just started, but important milestones have been reached already.
-									As we advance technology, we publish here the building blocks that step by step move us closer to our vision:
-								</p>
-							</section>
+							</header>
+							<p>
+								Building the logic of a network function is already complex without getting lost in the low level implementation details that have to do
+                with packet processing, memory allocation and handling, data structures, etc. Abstracting away such details was the first target of
+                Axbryd's researchers. Surprisingly, the core of Axbryd's technology relies on an already well-known and widely used concept in
+                network functions design: <strong>Finite State Machines</strong> (FSMs, for friends).
+							</p>
+							<p>
+								FSMs are already widely used to design network functions at all levels, from IP packets handling to congestion control protocols, and as
+                such they are a familiar and easy-to-use abstraction for network functions designers and developers. Axbryd makes FSMs the central
+                abstraction for many of its technological building blocks, enabling a unique common programming model for network functions running in software,
+                FPGAs, network processors or even ASICs. The result? Network functions are developed in few hours, programming them is as easy as writing
+                <i>python</i> scripts and, with no changes, they can run on both a CPU at 10s of Gbps or on a Smart NIC at 100s of Gbps.
+							</p>
+							<!-- </section> -->
+							<footer>
+								<a href="#features" class="button">Building Blocks?</a>
+							</footer>
 						</article>
+				</section>
+			</div>
 						<!-- <hr /> -->
+				<div class="wrapper style1">
+					<section id="features" class="container special">
+						<header>
+							<h2>A collection of building blocks</h2>
+							<p>
+								Axbryd's quest towards better networking technologies is just started, but important milestones have been reached already.
+								As we advance technology, we publish here the building blocks that step by step move us closer to our vision:
+							</p>
+						</header>
+
 						<div class="row">
 							<article class="4u 12u(mobile) special">
-
-								<!-- <header>
-									<h3><a href="#">FlowBlaze</a></h3>
-								</header> -->
+								<header>
+									<h3><a href="FlowBlaze.html">FlowBlaze</a></h3>
+								</header>
 								<p>
-									<a href="#" class="image featured" style="margin-bottom: 0px; margin-top: 10px"><img src="../images/FlowBlaze/FlowBlaze-icon.png" alt="" /></a>
+									<a href="FlowBlaze.html" class="image featured" style="margin-bottom: 0px; margin-top: 10px"><img src="../images/FlowBlaze/FlowBlaze-exagons.png" alt="" /></a>
 									FlowBlaze simplifies the design and implementation of stateful network functions. Using a Finite State Machine
 									to model state evolution, and providing high-performance execution engines for state machines, FlowBlaze
 									enables quick development cycles and scalable state handling.
 								</p>
 							</article>
 							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured" style="margin-bottom: 0px; margin-top: 10px"><img style="height: 140px" src="../images/question-mark.png" alt="" /></a>
 								<header>
 									<h3><a href="#">Coming soon...</a></h3>
 								</header>
+								<a href="#" class="image featured" style="margin-bottom: 0px; margin-top: 10px"><img src="../images/next.png" alt="" /></a>
 								<p>
 									We are working hard to release our next building block, stay tuned for the next update!
 								</p>
@@ -145,13 +157,12 @@
 								</p>
 							</article> -->
 						</div>
-					</div>
-
+					</section>
 				</div>
 
 			<!-- Footer -->
 				<div id="footer">
-				
+
 						<!-- <hr /> -->
 						<div class="row">
 							<div class="12u">
